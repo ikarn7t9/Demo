@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .navbar {
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  .nav-header{
+margin-top: 15px;
+
+
+
+  }
+  .nav-logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+  }
+  
+ 
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  
+ 
+
+
+
+
+
+
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 17vh;
+}
+.mform{
+    width: 600px;
+    height: 500px;
+    
+      
+}
+.mform h1{
+color: yellow;
+margin-left: 20px;
+padding-left: 30px;
+}
+.inp{
+    margin: 20px 80px;
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+.inp-btn{
+    margin: 20px 70px;
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    background-color: yellow;
+    border: none;
+    
+}
+.form-r{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(233, 233, 146);
+}
+.form-r img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: yellow;
+    width: 100%;
+    height: 20%;
+  margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .footer1{
+    width: 300px;
+    height: auto;
+    
+  }
+  .footer2{
+    width: 300px;
+    height: auto;
+    
+  }
+  .footer3{
+    width: 300px;
+    height: auto;
+  
+  }
+  
+  
+   
